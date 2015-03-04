@@ -1,7 +1,7 @@
 /*css across all pages*/
 
 body {
-	background-image: url(background2.jpg);
+	background-image: url(../images/background2.jpg);
 	background-repeat: repeat;
 	background-color: #cccccc;
 }
@@ -64,21 +64,24 @@ ol{
 
 }
 
-#billboard img{
+/*#billboard img{
 	background-color: red;
 	height: 324px;
 	width: 224px;
-}
+}*/
 
-.gallery{
+.col{
 	float: left;
+	width: 31%;
+	text-indent: left;
+	background-color: red;
 }
 
 
-.gallery img{
-	background-color: red;
-	height: 324px;
-	width: 224px;
+.col img{
+	/*background-color: red;*/
+	/*height: 324px;
+	width: 224px;*/
 }
 
 #footer
