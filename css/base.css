@@ -1,0 +1,114 @@
+/*css across all pages*/
+
+body {
+	background-image: url(background2.jpg);
+	background-repeat: repeat;
+	background-color: #cccccc;
+}
+
+#wrapper{
+
+}
+
+#header{
+	background-color: white;
+	text-align: center;
+}
+
+/*#header h2 {
+	text-transform: capitalize; 
+
+}	
+
+#header p {
+	text-transform: capitalize; 
+}*/	
+
+.clear{
+	clear: both;
+}
+
+
+#logo img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	/*background: transparent;
+	clear: inherit;*/
+}
+
+.links a{
+	text-decoration: none;
+	color: black;
+	float: right;
+	/*bottom: 100px;*/
+
+}
+
+.links a:visited {
+    text-decoration: none;
+}
+
+ul{
+	list-style: none;
+
+}
+
+ol{
+	list-style: none;
+
+}
+
+.nav {
+
+
+}
+
+#billboard img{
+	background-color: red;
+	height: 324px;
+	width: 224px;
+}
+
+.gallery{
+	float: left;
+}
+
+
+.gallery img{
+	background-color: red;
+	height: 324px;
+	width: 224px;
+}
+
+#footer
+
+#footer_links
+
+#footer_copyright
+
+/* css for Property subpage */
+
+#Property_1_About
+
+#property_title
+
+#property_features
+
+#property_description
+
+/* css for About page */
+
+#about
+
+/* css for Home page */
+
+#contact
+
+.name_contact
+
+.email_contact
+
+.comment_contact
+
+.button_contact
