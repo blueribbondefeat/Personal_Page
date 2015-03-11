@@ -4,10 +4,13 @@ body {
 	background-image: url(../images/background2.jpg);
 	background-repeat: repeat;
 	background-color: #cccccc;
+	margin: 0px;
 }
 
-#wrapper{
 
+/*keep wrapper margin*/
+#wrapper{
+	margin: 0px 100px 70px 100px;
 }
 
 #header{
@@ -15,14 +18,15 @@ body {
 	text-align: center;
 }
 
-/*#header h2 {
+#header h2 {
 	text-transform: capitalize; 
-
+	background-color: none;
 }	
 
 #header p {
 	text-transform: capitalize; 
-}*/	
+	background-color: none;
+}	
 
 .clear{
 	clear: both;
@@ -37,10 +41,26 @@ body {
 	clear: inherit;*/
 }
 
-.links a{
+
+.nav {
+	list-style-type: none;
+	margin-top: 45px;
+	padding-right: 0px;
+	float: right;
+}
+
+
+.nav li{
+	display: inline;
+	padding-right: 15px;
+}
+
+.nav a{
+	/*margin-top: 35px;*/	
 	text-decoration: none;
 	color: black;
-	float: right;
+	/*float: right;*/
+	
 	/*bottom: 100px;*/
 
 }
@@ -49,12 +69,17 @@ body {
     text-decoration: none;
 }
 
-ul{
+a:hover{
+    font-weight: bold;
+}
+
+
+ul, ol{
 	list-style: none;
 
 }
 
-ol{
+/*ol{
 	list-style: none;
 
 }
@@ -63,26 +88,46 @@ ol{
 
 
 }
-
-/*#billboard img{
-	background-color: red;
-	height: 324px;
-	width: 224px;
-}*/
-
-.col{
-	float: left;
-	width: 31%;
-	text-indent: left;
-	background-color: red;
+*/
+.col {
+	margin: 4px;
+    padding: 18px;
+    height: auto;
+    width: 100%;
+    float: left;
+    background-color: none;
 }
 
 
 .col img{
+	width: 28%;
+	background-color: #A3C266;
+	margin: 4px;
+    padding: 8px;
+    border: 1px solid #A3C266;
+}
+
+.gallery img{
+	width: 45%;
+	background-color: #A3C266;
+	margin: 4px;
+    padding: 8px;
+    border: 1px solid #A3C266;
+}
+
+/*.col{
+	float: left;
+	width: 31%;
+	text-indent: left;
+	background-color: red;
+}*/
+
+
+/*.col img{
 	/*background-color: red;*/
 	/*height: 324px;
-	width: 224px;*/
-}
+	width: 224px;
+}*/
 
 #footer
 
