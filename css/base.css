@@ -129,7 +129,11 @@ ul, ol{
 	width: 224px;
 }*/
 
-#footer
+#footer{
+	margin-top: 75px;
+	display: inline;
+	background-color: red;
+}
 
 #footer_links
 
